@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Question Form</title>
+    <link rel="stylesheet" href="style/externalstylesheet.css">
+  </head>
+  <body>
+    <table>
+      <td><img src="Images/logo.jpg" height="50" width="50"></td>
+      <td><h1>Online Shopping</h1></td>
+    </table>
+
+    <nav>
+    <table>
+      <td><a href="index.html">Home</a> | </td>
+      <td><a href="contacts.html">Contact</a> | </td>
+      <td><a href="question.html">Question?</a> | </td>
+      <td><a href="https://www.facebook.com/">Facebook</a></td>
+    </table>
+    </nav>
+    <p>How can we help you?</p>
+    <form>
+
+      <fieldset>
+        <label>Name :</label>
+        <input type="text" maxlength="4" required>
+        <br>
+        <br>
+        <select id="simple" name="simple" required>
+          <option selected>Topic</option>
+          <option>My Account</option>
+          <option>Data Privacy</option>
+          <option>Payment</option>
+          <option>Shipping and Delivery</option>
+          <option>Return</option>
+        </select>
+        <br>
+        <br>
+        <label>Question :</label>
+        <br>
+        <textarea name="question" rows="8" cols="80" required></textarea>
+        <br>
+        <br>
+        <label>Email :</label>
+        <input type="text" maxlength="10" required>
+        <br>
+        <br>
+        <label>Phone number : +60 </label>
+        <input type="text" maxlength="4" required>
+        <br>
+        <br>
+        <button type="submit" name="button">Submit</button>
+        <button type="reset" name="button">Reset</button>
+      </fieldset>
+    </form>
+
+
+  </body>
+</html>
